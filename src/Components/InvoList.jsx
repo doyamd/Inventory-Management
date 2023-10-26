@@ -1,11 +1,15 @@
 import React from 'react'
-
+import NavBar from './NavBar'
+import { Link } from 'react-router-dom'
 const InvoList = () => {
   return (
+    <div>
+      <NavBar/>
     <div className='flex flex-col p-5 m-10'>
         <div className='flex flex-row justify-between'>
             <p className='text-2xl'>Items</p>
-            <a href="#">Add</a>
+            <Link to='/add'>Add</Link>
+            
         </div>
         <div className='flex flex-row justify-between'>
           <div>
@@ -26,6 +30,8 @@ const InvoList = () => {
           </div>
         </div>
     </div>
+    </div>
+    
   )
 }
 

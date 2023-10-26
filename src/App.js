@@ -1,16 +1,10 @@
 import './App.css';
-import Form from './Components/Form';
-import InvoList from './Components/InvoList';
-import Login from './Components/Login';
-import NavBar from './Components/NavBar';
+import Routing from './Components/Routing';
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/> */}
-      {/* <InvoList/> */}
-      {/* <Login/> */}
-      <Form/>
+      <Routing/>
     </div>
   );
 }
